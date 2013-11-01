@@ -440,7 +440,7 @@
 
   <project path="kernel/sony/u8500" name="munjeni/android_kernel_xperiago" remote="github" revision="jb-dev" />
   <project path="vendor/sony/nypon" name="percy-g2/vendor_nypon_4.3" remote="github" revision="master" />
-  <project path="device/sony/nypon" name="percy-g2/android_device_sony_nypon-4.3" remote="github" revision="aosp" />
+  <project path="device/sony/nypon" name="percy-g2/android_device_sony_nypon-4.4" remote="github" revision="master" />
   <project path="hardware/semc" name="munjeni/aosp_4.3_hardware_semc" remote="github" revision="master" />
 
 </manifest>
