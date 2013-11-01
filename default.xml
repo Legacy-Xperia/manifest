@@ -5,7 +5,8 @@
            fetch=".." />
            
   <remote  name="github"
-           fetch="https://github.com"
+           fetch="https://github.com" />
+           
   <default revision="refs/tags/android-4.4_r1"
            remote="aosp"
            sync-j="4" />
