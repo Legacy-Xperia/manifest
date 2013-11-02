@@ -13,8 +13,8 @@
   <default revision="refs/tags/android-4.4_r1"
            remote="aosp"
            sync-j="4" />
-
-  <project path="build" name="android_build" remote="omnirom" revision="android-4.4" >
+           
+  <project path="build" name="platform/build" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
@@ -68,7 +68,6 @@
   <project path="external/bluetooth/bluedroid" name="platform/external/bluetooth/bluedroid" groups="pdk" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" />
   <project path="external/bsdiff" name="platform/external/bsdiff" groups="pdk" />
-  <project path="external/busybox" name="percy-g2/android_external_busybox-1" remote="github" revision="android-4.4" />
   <project path="external/bzip2" name="platform/external/bzip2" groups="pdk" />
   <project path="external/ceres-solver" name="platform/external/ceres-solver" />
   <project path="external/checkpolicy" name="platform/external/checkpolicy" groups="pdk" />
@@ -386,7 +385,6 @@
   <project path="prebuilts/eclipse" name="platform/prebuilts/eclipse" groups="pdk" />
   <project path="prebuilts/eclipse-build-deps" name="platform/prebuilts/eclipse-build-deps" groups="notdefault,eclipse" />
   <project path="prebuilts/eclipse-build-deps-sources" name="platform/prebuilts/eclipse-build-deps-sources" groups="notdefault,eclipse" />
-  <project path="prebuilts/gcc/darwin-x86/arm/arm-eabi-4.4.3" name="android_prebuilts_gcc_darwin-x86_arm_arm-eabi-4.4.3" groups="pdk,darwin,arm" remote="omnirom" revision="android-4.4" />
   <project path="prebuilts/gcc/darwin-x86/arm/arm-eabi-4.6" name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.6" groups="pdk,darwin,arm" />
   <project path="prebuilts/gcc/darwin-x86/arm/arm-eabi-4.7" name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.7" groups="pdk,darwin,arm" />
   <project path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.6" name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.6" groups="pdk,darwin,arm" />
@@ -398,7 +396,6 @@
   <project path="prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.6" name="platform/prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.6" groups="pdk,darwin,x86" />
   <project path="prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.7" name="platform/prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.7" groups="pdk,darwin,x86" />
   <project path="prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.7" name="platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.7" groups="pdk,darwin,x86" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.4.3" name="android_prebuilts_gcc_linux-x86_arm_arm-eabi-4.4.3" groups="pdk,linux,arm" remote="omnirom" revision="android-4.4" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" groups="pdk,linux,arm" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" groups="pdk,linux,arm" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" groups="pdk,linux,arm" />
@@ -438,9 +435,8 @@
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
 
-  <project path="kernel/sony/u8500" name="munjeni/android_kernel_xperiago" remote="github" revision="jb-dev" />
   <project path="vendor/sony/nypon" name="percy-g2/vendor_nypon_4.3" remote="github" revision="master" />
-  <project path="device/sony/nypon" name="percy-g2/android_device_sony_nypon-4.4" remote="github" revision="master" />
+  <project path="device/sony/nypon" name="percy-g2/android_device_sony_nypon-4.4" remote="github" revision="aosp" />
   <project path="hardware/semc" name="munjeni/aosp_4.3_hardware_semc" remote="github" revision="master" />
 
 </manifest>
