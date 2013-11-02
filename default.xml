@@ -14,7 +14,7 @@
            remote="aosp"
            sync-j="4" />
 
-  <project path="build" name="android_build" remote="omnirom" rivision="android-4.4" >
+  <project path="build" name="android_build" remote="omnirom" revision="android-4.4" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
