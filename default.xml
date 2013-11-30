@@ -468,7 +468,7 @@
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="CyanogenMod/android_vendor_tmobile_libs_com.tmobile.themes" />
   <project path="vendor/tmobile/providers/ThemeManager" name="CyanogenMod/android_vendor_tmobile_providers_ThemeManager" />
 
-  <project path="kernel/sony/u8500" name="Legacy-Xperia/android_kernel_xperia_u8500" remote="github" revision="jb-dev" />
+  <project path="kernel/sony/u8500" name="Legacy-Xperia/android_kernel_xperia_u8500" remote="github" revision="kk-dev" />
   <project path="vendor/sony/nypon" name="percy-g2/vendor_nypon_4.3" remote="github" revision="master" />
   <project path="vendor/sony/kumquat" name="XperiaNovathor/proprietary_vendor_sony" remote="github" revision="master" />
   <project path="device/sony/kumquat" name="Legacy-Xperia/android_device_sony_kumquat" remote="github" revision="kk-dev" />
