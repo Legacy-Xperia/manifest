@@ -448,8 +448,8 @@
   <project path="vendor/tmobile/libs/com.tmobile.themes" remote="cyanogen" revision="refs/heads/cm-11.0" name="github/CyanogenMod/android_vendor_tmobile_libs_com.tmobile.themes" />
   <project path="vendor/tmobile/providers/ThemeManager" remote="cyanogen" revision="refs/heads/cm-11.0" name="github/CyanogenMod/android_vendor_tmobile_providers_ThemeManager" />
 
-  <!-- MoKee Bootable Start -->
-  <project path="bootable/recovery" name="MoKee/android_bootable_recovery" />
+  <!-- CM Bootable Start -->
+  <project path="bootable/recovery" name="github/CyanogenMod/android_bootable_recovery" />
   <!-- MoKee Bootable End -->
 
   <!-- MoKee Development Start -->
