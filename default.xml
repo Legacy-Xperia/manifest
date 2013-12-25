@@ -478,8 +478,8 @@
   <project path="vendor/sony/kumquat" name="XperiaNovathor/proprietary_vendor_sony" remote="github" revision="master" />
   <project path="device/sony/lotus" name="munjeni/aosp_4.3_device_sony_lotus" remote="github" revision="cm-11.0" />
   <project path="device/sony/kumquat" name="Legacy-Xperia/android_device_sony_kumquat" remote="github" revision="kk-dev" />
-  <project path="device/sony/nypon" name="Legacy-Xperia/android_device_sony_nypon" remote="github" revision="cm-11.0" >
-  <copyfile src="build-cm.sh" dest="build-cm.sh" />
-  </project>
+  <project path="device/sony/nypon" name="Legacy-Xperia/android_device_sony_nypon" remote="github" revision="cm-11.0" />
+  <copyfile src="device/sony/nypon/build-cm.sh" dest="build-cm.sh" />
+  
   <project path="hardware/semc" name="munjeni/android_hardware_semc" remote="github" revision="master" />
 </manifest>
