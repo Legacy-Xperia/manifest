@@ -481,5 +481,5 @@
   <project path="device/sony/nypon" name="Legacy-Xperia/android_device_sony_nypon" remote="github" revision="cm-11.0" />
   <copyfile src="device/sony/nypon/build-cm.sh" dest="build-cm.sh" />
   
-  <project path="hardware/semc" name="munjeni/android_hardware_semc" remote="github" revision="master" />
+  <project path="hardware/semc" name="Legacy-Xperia/android_hardware_semc" remote="github" revision="master" />
 </manifest>
