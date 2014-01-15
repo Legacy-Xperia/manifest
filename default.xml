@@ -471,15 +471,4 @@
   <project path="vendor/tmobile/apps/ThemeChooser" name="CyanogenMod/themes-platform-vendor-tmobile-apps-ThemeChooser" />
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="CyanogenMod/android_vendor_tmobile_libs_com.tmobile.themes" />
   <project path="vendor/tmobile/providers/ThemeManager" name="CyanogenMod/android_vendor_tmobile_providers_ThemeManager" />
-
-
-  <project path="kernel/sony/u8500" name="munjeni/android_kernel_xperiago" remote="github" revision="cm-11" />
-  <project path="vendor/sony/nypon" name="percy-g2/vendor_nypon_4.3" remote="github" revision="master" />
-  <project path="vendor/sony/kumquat" name="XperiaNovathor/proprietary_vendor_sony" remote="github" revision="master" />
-  <project path="device/sony/lotus" name="munjeni/aosp_4.3_device_sony_lotus" remote="github" revision="cm-11.0" />
-  <project path="device/sony/kumquat" name="Legacy-Xperia/android_device_sony_kumquat" remote="github" revision="kk-dev" />
-  <project path="device/sony/nypon" name="Legacy-Xperia/android_device_sony_nypon" remote="github" revision="cm-11.0" />
-  <copyfile src="device/sony/nypon/build-cm.sh" dest="build-cm.sh" />
-  
-  <project path="hardware/semc" name="munjeni/android_hardware_semc" remote="github" revision="master" />
 </manifest>
