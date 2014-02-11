@@ -1,0 +1,10 @@
+<SlimOTA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ota.xsd">
+<Stable>
+<jfltexx>
+<Filename>Mahdi-jfltexx-2.4.20140209</Filename>
+<DownloadUrl>
+http://mahdi-rom.androidfilesharing.com/download.php?file=Galaxy S4/Galaxy S4 Builds/mahdi-2.4-jfltexx-20140209.zip
+</DownloadUrl>
+</jfltexx>
+</Stable>
+</SlimOTA>
